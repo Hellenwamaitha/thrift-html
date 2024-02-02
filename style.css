@@ -1,4 +1,4 @@
-*{
+/* *{
     margin:0;
     padding:0;
 }
@@ -98,8 +98,8 @@ ul li a:hover{
     color: black;
     position: relative;
 }
-.content.par{
-    padding-left: 60px;
+.content .par{
+    padding-left: 55px;
     padding-bottom: 55px;
     font-family: Arial;
     letter-spacing: 1.2px;
@@ -108,7 +108,202 @@ ul li a:hover{
 .content h1{
     font-family: 'Times New Roman';
     font-size: 50px;
-    padding-left: 20px;
+    padding-left: 50px;
     margin-top: 9px;
     letter-spacing: 2px;
 }
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background-color: brown;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+} */
+
+style.css
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  } 
+  
+  
+  
+  
+  .icon {
+    flex: 1;
+  }
+  
+  .logo {
+    margin: 0;
+    color: green;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu ul li {
+    margin: 0 15px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .search {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .srch {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    padding: 8px 15px;
+    margin-left: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .content {
+    text-align: center;
+    padding: 50px;
+    color: black;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  span {
+    color: #ff6600;
+  }
+  
+  .par {
+    font-size: 1.2em;
+    margin: 20px 0;
+    font-weight: 500;
+  }
+  
+  .cn {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+ .menu ul li a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    transition: color 0.3s; /* Add transition for smooth color change */
+ }
+   
+   .menu ul li a:hover {
+    color: black; 
+   }
+
+   .main{
+    width: 100;
+    background: linear-gradient(to top rgba(0,0,0,0.5)50%,rgba(0.0.0.0.5)50%);
+    background-image: url('burgess-milner-OYYE4g-I5ZQ-unsplash (1).jpg');
+    background-size: cover;
+    height: 109vh;
+}
+  
+
+/* .main {
+    background-image: url('burgess-milner-OYYE4g-I5ZQ-unsplash (1).jpg'); /* Replace 'cloth-background.jpg' with your actual image file */
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: #fff; /* Set text color to white for better contrast */
+    /* padding-top: 80px;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: navajowhite; /* Set the background color of the navbar */
+    /* z-index: 100; /* Ensure the navbar is above other content */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  /* style.css */
+
+/* .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: navajowhite; /* Set the background color of the navbar */
+    /* z-index: 100; /* Ensure the navbar is above other content */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  
+  /* .logo {
+    margin: 0;
+    color: green;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  /* .menu ul li { */
+    /* margin: 0 15px;
+  }
+   */
+  /* .menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s; /* Add transition for smooth color change */
+  /* } */
+  
+  /* .menu ul li a:hover {
+    color: #ff6600; /* Change color on hover */
+  
+   /* */ */
+  /* .search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+     /* */ 
+  
+   /* */
+  /* .srch {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+     */
+   /* */
+  /* .main-content {
+    padding-top: 80px; /* Adjust the padding to accommodate the fixed navbar */
+     
+/*  */
